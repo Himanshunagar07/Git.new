@@ -1,0 +1,26 @@
+//Input length and breadth of a rectangle calculate area and perimeter.
+import java.util.Scanner;
+
+public class Main{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+
+  System.out.print("Enter length of ractangle:");
+    double length = sc.nextDouble();
+
+    System.out.print("Enter the breadth of rectanlge:");
+    double breadth = sc.nextDouble();
+
+    double area = length * breadth;
+    double perimeter = 2*(length + breadth);
+    
+    System.out.println("Area = " + area);
+    System.out.println("Perimeter = " + perimeter);
+  }
+}
+
+Output:
+Enter length of ractangle:45
+Enter the breadth of rectanlge:12
+Area = 540.0
+Perimeter = 114.0
